@@ -1,11 +1,11 @@
-function receivesAFunction (thing){
-    return thing()
+function receivesAFunction (callback){
+    callback()
 }
 
-function returnsANamedFunction (){
-    return function aya(){}
+function returnsANamedFunction(){
+    return function namedFunction(){}
 }
 
 function returnsAnAnonymousFunction (){
-    return function(){}
+    return ()=>{}
 }
